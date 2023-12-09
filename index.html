@@ -3,72 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Photo Gallery</title>
 </head>
 <body>
-<header>
-    <h1>TK Photography</h1>
+    <header id="top">
+        <h1>TK Photography</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#top">Top</a></li>
+        </ul>
+    </nav>
 </header>
-<nav>
-    About
-    Gallery
-    Contact
-    top
-</nav>
-<main>
-    About
-    Hello! 
-    I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world. 
-    Gallery
-    Here are some highlights of my work. The locations and year are in the caption. 
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Hello!</p>
+            <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
+        </section>
+        <section id="gallery">
+        <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
-    Chile.png
-    Chile, 2001
+            <section class="images">
 
-    Guatemala.png
-    Guatemala, 1997
+            <img src="Chile.png" alt="Chile, 2001">
+            <p>Chile, 2001</p>
 
-    Hawaii.png
-    Hawaii, 2010
+            <img src="Guatemala.png" alt="Guatemala, 1997">
+            <p>Guatemala, 1997</p>
 
-    Iran.png
-    Iran, 1999
+            <img src="Hawaii.png" alt="Hawaii, 2010">
+            <p>Hawaii, 2010</p>
 
-    Ireland.png
-    Ireland, 2012
+            <img src="Iran.png" alt="Iran, 1999">
+            <p>Iran, 1999</p>
 
-    Italy.png
-    Italy, 2015
+            <img src="Ireland.png" alt="Ireland, 2012">
+            <p>Ireland, 2012</p>
 
-    Moab-Desert.png
-    Moab Desert, 2020
+            <img src="Italy.png" alt="Italy, 2015">
+            <p>Italy, 2015</p>
 
-    Rocky-Mountains.png
-    Rocky Mountains, 2009
+            <img src="Moab-Desert.png" alt="Moab Desert, 2020">
+            <p>Moab Desert, 2020</p>
 
-    Switzerland.png
-    Switzerland, 2014
+            <img src="Rocky-Mountains.png" alt="Rocky Mountains, 2009">
+            <p>Rocky Mountains, 2009</p>
 
-    UK.png
-    UK, 2005
+            <img src="Switzerland.png" alt="Switzerland, 2014">
+            <p>Switzerland, 2014</p>
 
-    USA.png
-    USA, 2021
+            <img src="UK.png" alt="UK, 2005">
+            <p>UK, 2005</p>
 
-    Wyoming.png
-    Wyoming, 2021
-    Contact
-    Please fill out this form and I'll connect with you soon.
+            <img src="USA.png" alt="USA, 2021">
+            <p>USA, 2021</p>
 
-    Your contact information
-    Name (Your full name)
-    Email (Enter your email address)
-    Message (What can I help you with?)
-    Submit
-</main>
-<footer>
-    Copyright 2021 TK Photography
-</footer>
+            <img src="Wyoming.png" alt="Wyoming, 2021">
+            <p>Wyoming, 2021</p>
+
+        </section>
+    </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <h3>Please fill out this form and I'll connect with you soon.</h3>
+
+            <section class="name">
+                <h4>Name</h4>
+                <p>Your full name</p>
+            </section>
+            <section class="email">
+                <h4>Email</h4>
+                <p>Enter your email address</p>
+            </section>
+            <section class="message">
+                <h4>Message</h4>
+                <p>What can I help you with?</p>
+            </section>
+            <h4>Submit</h4>
+        </section>
+    </main>
+    <footer>
+        <small>Copyright 2021 TK Photography</small>
+    </footer>
 
 </body>
 </html>
