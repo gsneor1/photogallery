@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header id="top">
@@ -28,42 +29,65 @@
             <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
             <section class="images">
+            <figure>
+                <img src="Chile.png" alt="Chile, 2001">
+                <figcaption>Chile, 2001</figcaption>
+            </figure>
 
-            <img src="Chile.png" alt="Chile, 2001">
-            <p>Chile, 2001</p>
+            <figure>
+                <img src="Guatemala.png" alt="Guatemala, 1997">
+                <figcaption>Guatemala, 1997</figcaption>
+            </figure>
 
-            <img src="Guatemala.png" alt="Guatemala, 1997">
-            <p>Guatemala, 1997</p>
+            <figure>
+                <img src="Hawaii.png" alt="Hawaii, 2010">
+                <figcaption>Hawaii, 2010</figcaption>
+            </figure>
 
-            <img src="Hawaii.png" alt="Hawaii, 2010">
-            <p>Hawaii, 2010</p>
+            <figure>
+                <img src="Iran.png" alt="Iran, 1999">
+                <figcaption>Iran, 1999</figcaption>
+            </figure>
 
-            <img src="Iran.png" alt="Iran, 1999">
-            <p>Iran, 1999</p>
+            <figure>
+                <img src="Ireland.png" alt="Ireland, 2012">
+                <figcaption>Ireland, 2012</figcaption>
+            </figure>
 
-            <img src="Ireland.png" alt="Ireland, 2012">
-            <p>Ireland, 2012</p>
+            <figure>
+                <img src="Italy.png" alt="Italy, 2015">
+                <figcaption>Italy, 2015</figcaption>
+            </figure>
 
-            <img src="Italy.png" alt="Italy, 2015">
-            <p>Italy, 2015</p>
+            <figure>
+                <img src="Moab-Desert.png" alt="Moab Desert, 2020">
+                <figcaption>Moab Desert, 2020</figcaption>
+            </figure>
 
-            <img src="Moab-Desert.png" alt="Moab Desert, 2020">
-            <p>Moab Desert, 2020</p>
+            <figure>
+                <img src="Rocky-Mountains.png" alt="Rocky Mountains, 2009">
+                <figcaption>Rocky Mountains, 2009</figcaption>
+            </figure>
 
-            <img src="Rocky-Mountains.png" alt="Rocky Mountains, 2009">
-            <p>Rocky Mountains, 2009</p>
+            <figure>
+                <img src="Switzerland.png" alt="Switzerland, 2014">
+                <figcaption>Switzerland, 2014</figcaption>
+            </figure>
 
-            <img src="Switzerland.png" alt="Switzerland, 2014">
-            <p>Switzerland, 2014</p>
+            <figure>
+                <img src="UK.png" alt="UK, 2005">
+                <figcaption>UK, 2005</figcaption>
+            </figure>
 
-            <img src="UK.png" alt="UK, 2005">
-            <p>UK, 2005</p>
+            <figure>
+                <img src="USA.png" alt="USA, 2021">
+                <figcaption>USA, 2021</figcaption>
+            </figure>
 
-            <img src="USA.png" alt="USA, 2021">
-            <p>USA, 2021</p>
-
-            <img src="Wyoming.png" alt="Wyoming, 2021">
-            <p>Wyoming, 2021</p>
+            <figure>
+                <img src="Wyoming.png" alt="Wyoming, 2021">
+                <figcaption>Wyoming, 2021</figcaption>
+            </figure>
 
         </section>
     </section>
@@ -71,19 +95,18 @@
             <h2>Contact</h2>
             <h3>Please fill out this form and I'll connect with you soon.</h3>
 
-            <section class="name">
-                <h4>Name</h4>
-                <p>Your full name</p>
-            </section>
-            <section class="email">
-                <h4>Email</h4>
-                <p>Enter your email address</p>
-            </section>
-            <section class="message">
-                <h4>Message</h4>
-                <p>What can I help you with?</p>
-            </section>
-            <h4>Submit</h4>
+            <form action="/action_page.php">
+                <label for="fname">First name: </label>
+                <br><input type="text" placeholder="Your full name" id="fname" name="fname"><br><br>
+
+                <label for="email">Enter your email:</label>
+                <br><input type="email" placeholder="Enter your email address" id="email" name="email"><br><br>
+
+                <label for="message">Message: </label>
+                <br><input type="text" placeholder="What can I help you with?" id="message" name="message"><br><br>
+
+                <input type="submit">
+            </form>
         </section>
     </main>
     <footer>
